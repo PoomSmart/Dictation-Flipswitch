@@ -1,7 +1,7 @@
 Package: org.thebigboss.dictationflipswitchtoggle
 Name: Dictation Flipswitch
 Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 5.0), gsc.dictation
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm
 Description: Toggle for Dictation feature.
 Maintainer: PoomSmart

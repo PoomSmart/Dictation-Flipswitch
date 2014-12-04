@@ -1,13 +1,6 @@
 #import "FSSwitchDataSource.h"
 #import "FSSwitchPanel.h"
-
-@interface AFPreferences : NSObject
-+ (AFPreferences *)sharedPreferences;
-- (BOOL)dictationIsEnabled;
-- (void)_setDictationIsEnabledLocal:(BOOL)enabled;
-- (void)setDictationIsEnabled:(BOOL)enabled;
-- (void)synchronize;
-@end
+#import "Common.h"
 
 @interface DictationToggleSwitch : NSObject <FSSwitchDataSource>
 @end
